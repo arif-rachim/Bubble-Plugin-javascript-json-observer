@@ -1,0 +1,31 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 0,
+        "width": 0
+    },
+    "display": "State",
+    "events": {
+        "AAI": {
+            "caption": "change",
+            "doc": "Triggered when user programatically calling setState",
+            "name": "change"
+        }
+    },
+    "fields": {
+        "AAF": {
+            "caption": "Setter function Name",
+            "doc": "Setter function name eg : setUser",
+            "editor": "StaticText",
+            "name": "name",
+            "rank": 0
+        }
+    },
+    "icon": "ion-social-nodejs",
+    "property_applications": {
+        "Background": false
+    },
+    "states": {
+    }
+}

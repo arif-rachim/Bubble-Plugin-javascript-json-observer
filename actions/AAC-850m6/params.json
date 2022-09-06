@@ -1,0 +1,16 @@
+{
+    "category": "plugins",
+    "display": "setState",
+    "fields": {
+        "AAD": {
+            "caption": "(state) => void",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "code",
+            "optional": false,
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

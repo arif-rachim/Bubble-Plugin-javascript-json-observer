@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "productivity",
+        "2": "data (things)"
+    },
+    "description": "A custom-state bubble element that can be updated programmatically with javascript and json.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1531455189113x959372189361602000/Bubble%20Icon.png",
+    "license": "open_source",
+    "name": "javascript-json-custom-state"
+}
