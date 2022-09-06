@@ -2,8 +2,8 @@
     "add_is_visible": true,
     "category": "visual elements",
     "default_dim": {
-        "height": 0,
-        "width": 0
+        "height": 1,
+        "width": 1
     },
     "display": "State",
     "events": {

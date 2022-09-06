@@ -4,7 +4,7 @@ function(instance, properties, context) {
 	const name = properties.name;
     function state(value){
         const isAFunction = typeof value === 'function';
-        const dom = instance.canvas[0];
+        const dom = instance.canvas;
         const bubbleInstance = dom.bubble_data.bubble_instance;
         const states = bubbleInstance._states;
         const statesKeys = Object.keys(states).filter(key => key.indexOf('custom.') === 0);
