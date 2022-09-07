@@ -24,8 +24,7 @@ function(instance, properties, context) {
             if(eventKey in states){
                 states[eventKey].call(this,newValue[key])
             }
-        })
-        instance.triggerEvent('change');
+        });
     }
     state.current = null;
     if(name){
