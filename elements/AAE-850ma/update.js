@@ -2,6 +2,7 @@ function(instance, properties, context) {
     window.appState = window.appState || {};
     const appState = window.appState;
 	const name = properties.name;
+    const initFunction = properties.initialization;
     function state(value){
         const isAFunction = typeof value === 'function';
         const dom = instance.canvas;
@@ -29,5 +30,13 @@ function(instance, properties, context) {
     state.current = null;
     if(name){
         appState[name] = state;
+    }
+    if(initFunction){
+        const fun = new Function(initFunction);
+        const result = fun.call();
+        // due to some weird bug in bubble, this has to be invoked using timeout
+        setTimeout(() => {
+            state(result);            
+        },1);
     }
 }

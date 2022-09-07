@@ -15,13 +15,26 @@
     },
     "fields": {
         "AAF": {
-            "caption": "Setter function Name",
+            "caption": "setState function Name",
             "doc": "Setter function name eg : setUser",
-            "editor": "StaticText",
+            "editor": "DynamicValue",
+            "long_text": true,
             "name": "name",
-            "rank": 0
+            "rank": 0,
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "Custom-State Initialization",
+            "doc": "function for setting the custom state value, expected returning json for the custom state value",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "initialization",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
         }
     },
+    "has_reset_fn": false,
     "icon": "ion-social-nodejs",
     "property_applications": {
         "Background": false

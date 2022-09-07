@@ -4,6 +4,7 @@
         "1": "productivity",
         "2": "data (things)"
     },
+    "demo_page": "https://demo-javascript-json-custom-state.bubbleapps.io/version-test?debug_mode=true",
     "description": "A custom-state bubble element that can be updated programmatically with javascript and json.",
     "image": "//s3.amazonaws.com/appforest_uf/f1662486750833x646186482485056300/redux.png",
     "license": "open_source",
